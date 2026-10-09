@@ -52,6 +52,9 @@ pnpm-debug.log*
 !.env.example
 *.pem
 *.key
+*.jks
+*.keystore
+**/key.properties
 
 # Secret / Local properties
 **/application-local.properties
