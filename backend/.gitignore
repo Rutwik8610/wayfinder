@@ -1,0 +1,49 @@
+# ===================================================================
+# WayFinder Backend .gitignore
+# ===================================================================
+
+# Build outputs
+target/
+bin/
+build/
+dist/
+HELP.md
+
+# Maven wrapper jar if needed (wrapper scripts kept)
+.mvn/wrapper/maven-wrapper.jar
+
+# Environment variables & secrets
+.env
+.env.*
+.env*.local
+!.env.example
+*.pem
+*.key
+application-local.properties
+application-secret.properties
+
+# Logs
+*.log
+*.log*
+logs/
+
+# IDE & Editor files
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# STS / Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/.nb-gradle/
